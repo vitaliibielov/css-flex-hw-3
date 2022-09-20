@@ -1,0 +1,88 @@
+/* -primary text color #212121
+    secondary text color #757575
+    accent color #2196F3
+    extra color #000000
+
+    hero-bg-color #2F303A
+    main-bg-color #FFFFFF
+    section-bg-color #F5F4FA
+    
+*/
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+  font-family: Roboto;
+}
+
+.list {
+  list-style: none;
+}
+
+/* ------------------------- */
+/* HEADER SECTION */
+
+/* Logo */
+
+.logo {
+  color: #000000;
+  font-family: Raleway;
+}
+
+/* Nav */
+
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Contacts */
+
+.contacts-nav .link {
+  color: var(--secondary-text-color);
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* ------------------------- */
+/* HERO SECTION */
+
+/* Features */
+.feature-list .text {
+  color: var(--secondary-text-color);
+}
+
+/* ------------------------- */
+/* FEATURES SECTION */
+
+/* ------------------------- */
+/* OUR-SERVICE SECTION */
+
+/* ------------------------- */
+/* OUR-TEAM SECTION */
+.team-list .position {
+  color: var(--secondary-text-color);
+}
+
+/* ------------------------- */
+/* FOOTER SECTION */
+
+.address-list .location {
+  color: #ffffff;
+}
+.address-list .link {
+  color: var(--secondary-text-color);
+}
