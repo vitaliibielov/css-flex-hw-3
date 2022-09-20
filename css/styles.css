@@ -83,6 +83,7 @@ body {
 .address-list .location {
   color: #ffffff;
 }
+
 .address-list .link {
   color: var(--secondary-text-color);
 }
