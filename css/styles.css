@@ -32,6 +32,8 @@ body {
 
 .list {
   list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 .link {
@@ -40,6 +42,16 @@ body {
 
 /* ------------------------- */
 /* HEADER SECTION */
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  outline: 2px solid tomato;
+}
 
 /* Logo */
 
@@ -54,10 +66,6 @@ body {
 
 .logo-accent {
   color: var(--accent-color);
-}
-
-.footer .logo {
-  color: var(--white-text-color);
 }
 
 /* Nav */
@@ -99,15 +107,18 @@ body {
 
 .hero {
   background-color: var(--accent-bg-color);
+  outline: 2px solid tomato;
+  text-align: center;
 }
 
 .hero-title {
+  margin-top: 0px;
+  margin-bottom: 30px;
   color: var(--white-text-color);
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -127,7 +138,14 @@ body {
 
 /* ------------------------- */
 /* FEATURES SECTION */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .section-title {
+  margin-top: 0;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -135,6 +153,8 @@ body {
 }
 
 .feature-title {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -142,6 +162,8 @@ body {
 }
 
 .feature-text {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--secondary-text-color);
 
   line-height: 1.71;
@@ -149,10 +171,19 @@ body {
 
 /* ------------------------- */
 /* OUR-SERVICE SECTION */
+.section-service {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
 
 /* ------------------------- */
 /* OUR-TEAM SECTION */
+.team-photo {
+  margin-bottom: 30px;
+}
 .team_title {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -160,6 +191,8 @@ body {
 }
 
 .team_text {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--secondary-text-color);
 
   font-size: 16px;
@@ -171,7 +204,14 @@ body {
 /* FOOTER SECTION */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--accent-bg-color);
+}
+
+.footer .logo {
+  margin-bottom: 20px;
+  color: var(--white-text-color);
 }
 
 .address {
@@ -199,6 +239,11 @@ body {
 
 /* ----------------------------PORTFOLIO PAGE------------------------------ */
 /* FILTER */
+
+.filter-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 .status-filter.active {
   color: var(--white-text-color);
