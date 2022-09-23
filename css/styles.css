@@ -76,6 +76,10 @@ img {
   align-items: center;
 }
 
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+
 /* Logo */
 
 .logo {
@@ -378,11 +382,14 @@ img {
 .cases-card {
   width: 370px;
   margin: 15px;
-  border: 1px solid #eeeeee;
 }
 
-.cases-img {
-  margin-bottom: 20px;
+.cases-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 
 .cases-title {
@@ -400,7 +407,7 @@ img {
 .cases-product {
   color: var(--secondary-text-color);
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   margin-left: 24px;
 
   font-size: 16px;
