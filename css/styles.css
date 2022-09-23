@@ -282,6 +282,9 @@ body {
   line-height: 1.71;
 }
 
+.address-item + .address-item {
+  margin-top: 9px;
+}
 
 .address_location {
   color: var(--white-text-color);
@@ -304,7 +307,16 @@ body {
 /* ----------------------------PORTFOLIO PAGE------------------------------ */
 /* FILTER */
 
+.filter {
+  display: flex;
+}
+
+.filter-item + .filter-item {
+  margin-left: 8px;
+}
+
 .filter-title {
+  text-align: center;
   margin-top: 0;
   margin-bottom: 0;
 }
