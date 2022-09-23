@@ -30,6 +30,20 @@ body {
   letter-spacing: 0.03em;
 }
 
+.novisible {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .list {
   list-style: none;
   padding: 0px;
@@ -38,6 +52,12 @@ body {
 
 .link {
   text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* ------------------------- */
@@ -49,8 +69,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-
-  outline: 2px solid tomato;
 }
 
 .header {
@@ -132,15 +150,20 @@ body {
 /* HERO SECTION */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
   background-color: var(--accent-bg-color);
-  outline: 2px solid tomato;
   text-align: center;
 }
 
 .hero-title {
   margin-top: 0px;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
   color: var(--white-text-color);
+  width: 696px;
 
   font-weight: 900;
   font-size: 44px;
@@ -345,8 +368,28 @@ body {
   background-color: var(--accent-color);
 }
 
+/* Cases  */
+.cases {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.cases-card {
+  width: 370px;
+  margin: 15px;
+  border: 1px solid #eeeeee;
+}
+
+.cases-img {
+  margin-bottom: 20px;
+}
+
 .cases-title {
   color: var(--primary-text-color);
+  margin-top: 0;
+  margin-bottom: 4px;
+  margin-left: 24px;
 
   font-weight: 700;
   font-size: 18px;
@@ -356,11 +399,10 @@ body {
 
 .cases-product {
   color: var(--secondary-text-color);
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: 24px;
 
   font-size: 16px;
   line-height: 1.88;
-}
-
-.cases-desc {
-  color: var(--white-text-color);
 }
